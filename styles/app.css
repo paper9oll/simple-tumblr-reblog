@@ -1,0 +1,25 @@
+body {
+  margin: 0 auto;
+  width: 350px;
+}
+
+h2, h3 {
+  margin: 1rem 0;
+}
+
+.alert {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.btn-group {
+  margin-bottom: 1rem;
+}

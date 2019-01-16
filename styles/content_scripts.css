@@ -1,0 +1,97 @@
+.super-reblog-focused {
+  font-weight: bold;
+}
+
+#super-reblog-monster {
+  cursor: pointer;
+  position: fixed; 
+  right: 10px;
+  bottom: 10px;
+}
+#super-reblog-monster img {
+  width: 40px;
+}
+#super-reblog-monster-tip {
+  position: fixed;
+  width: 170px;
+  right: 10px;
+  bottom: 55px;
+}
+#super-reblog-monster-tip .arrow-box {
+	position: relative;
+  padding: 10px;
+  font-family: georgia, serif;
+  font-size: 14px;
+	background: #88b7d5;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+#super-reblog-monster-tip .arrow-box em {
+  font-style: italic;
+}
+#super-reblog-monster-tip .arrow-box:after {
+	top: 100%;
+	left: 90%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #88b7d5;
+	border-width: 8px;
+	margin-left: -8px;
+}
+
+.super-reblog-post-bestof-button {
+  float: right;
+  font-size: x-small;
+  color: #6aa;
+  cursor: pointer;
+}
+
+#super-reblog-indicator {
+  white-space: nowrap;
+}
+#super-reblog-indicator .super-reblog-indicator-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+  height: 32px;
+}
+#super-reblog-indicator .super-reblog-indicator-avatar img {
+  height: 100%;
+}
+#super-reblog-indicator .super-reblog-indicator-blogname {
+  color: #888;
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.super-reblog-post-bestof {
+  float: left;
+  border-bottom: 5px solid transparent;
+  width: 96px;
+  opacity: 0.5;
+}
+
+.super-reblog-post-bestof-container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  overflow-y: hidden;
+  width: 96px;
+  margin-left: -100px;
+}
+
+.super-reblog-menuitem-bestof-button {
+  position: absolute;
+  right: -28px;
+  top: 0px;
+}
+.super-reblog-menuitem-bestof-button img {
+  width: 30px;
+}

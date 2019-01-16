@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simple Tumblr Reblog</title>
+  <link rel="stylesheet" href="/styles/bootstrap.css">
+  <link rel="stylesheet" href="/styles/app.css">
+</head>
+<body>
+  <div class="container">
+    <div id="options-status" class="alert alert-primary"></div>
+    <h3>Simple Tumblr Reblog</h3>
+    <div class="card">
+      <h5 class="card-header">Default blog</h5>
+      <div class="card-body">
+        <p class="card-text">Automatically reblog to <b><i>Primary</i></b> or <b><i>Secondary</i></b> blog</p>
+        <select id="default-blog" class="custom-select">
+          <option value="0">Primary (Default)</option>
+          <option value="1">Secondary</option>
+        </select>
+      </div>
+    </div>
+    <div class="card">
+      <h5 class="card-header">Reblog behavior</h5>
+      <div class="card-body">
+        <p class="card-text">Automatically <b><i>Post</i></b> or <b><i>Queue</i></b> when reblogging</p>
+        <select id="reblog-behavior" class="custom-select">
+          <option value="post">Post (Default)</option>
+          <option value="queue">Queue</option>
+        </select>
+      </div>
+    </div>
+    <div class="card">
+      <h5 class="card-header">Queue behavior</h5>
+      <div class="card-body">
+        <p class="card-text">Automatically publish queued post when daily queue gets full</p>
+        <select id="queue-behavior" class="custom-select">
+          <option value="no">No (Default)</option>
+          <option value="yes">Yes</option>
+        </select>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" id="save-options" class="btn btn-success">Save Options</button>
+    </div>
+  </div>
+  <script src="/scripts/jquery.js"></script>
+  <script src="/scripts/bootstrap.js"></script>
+  <script src="/scripts/popup.js"></script>
+</body>
+</html>
